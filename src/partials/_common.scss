@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Source Sans Pro, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+    // test 
+    // background-color: aqua;
+}
+
+li {
+    display: inline-block;
+}
+
+.font-color {
+    color: $main_font_color;
+}
