@@ -24,6 +24,25 @@ li {
     display: inline-block;
 }
 
+// fonts 
+.title-font-color {
+    color: $title_font_color;
+}
 .font-color {
     color: $main_font_color;
+}
+// end fonts 
+
+.blue-button {
+    color: white;
+    background-color: #2e4790;
+    padding: 5px;
+    border-width: 0;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    img {
+        width: 20px;
+        vertical-align: middle;
+    }
 }
