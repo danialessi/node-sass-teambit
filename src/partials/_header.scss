@@ -30,5 +30,26 @@
             }
         }
     }
-    // end navbar 
+    // end navbar
+
+    // burger 
+    .burger {
+        display: none;
+    }
+    // end burger 
+}
+
+// MEDIA QUERIES 
+@media screen and (max-width: 768px) {
+    
+    .header-content {
+        nav {
+            display: none;
+        }
+
+        .burger {
+            display: block;
+        }
+    }
+    
 }

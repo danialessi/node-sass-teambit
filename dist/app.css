@@ -79,7 +79,18 @@ li {
   width: 15px;
   vertical-align: middle;
 }
+.header-content .burger {
+  display: none;
+}
 
+@media screen and (max-width: 768px) {
+  .header-content nav {
+    display: none;
+  }
+  .header-content .burger {
+    display: block;
+  }
+}
 .jumbotron-background {
   background-color: #0414b3;
 }
