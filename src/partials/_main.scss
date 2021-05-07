@@ -27,34 +27,106 @@
 // top-content
 .section-content {
     text-align: center;
-    border-bottom: 1px solid $main_font_color;
+    
 
-    .images-container {
-        margin: 50px auto;
-        width: 80%;
+    .top-images-container {
+        @include flexed_images_container;
         
-        .top-images {
-            display: flex;
-            justify-content: space-between;
-    
-            img {
-                width: 15%;
-            }
-        }
-    
-        .bottom-image {
-            margin-top: 40px;
-            img {
-                width: 30%;
-            }
+        img {
+            width: 15%;
         }
     }
 
-    
+    .bunny-container {
+        margin-bottom: 60px;
+        
+        img {
+            width: 20%;
+        }
+    }
+}
+
+.section-border {
+    border-bottom: 1px solid $main_font_color;
 }
 // end top-content 
 
 // bottom content 
+.bottom-content-margin {
+    margin-top: 40px;
+}
 
+.bottom-images-container {
+    @include flexed_images_container;
+
+    div {
+        width: 15%;
+
+        img {
+            height: 100px;
+        }
+
+        p {
+            color: #7c4e3c;
+            font-size: 13px;
+            margin-top: 20px;
+        }
+        
+        .cat-img {
+            width: 50%;
+        }
+    }
+}
+
+.single-image {
+    img{
+        width: 100%;
+    }
+}
 // end bottom content 
-// end orange section 
+// end orange section
+
+
+// white section 
+.white-section {
+
+    .justified-content {
+        display: flex;
+
+
+        .col-left {
+            width: 50%;
+        }
+
+        .col-right {
+            width: 30%;
+
+            p {
+                margin: 40px 0 20px 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: blue;
+            }
+
+            img {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.reverse {
+    order: 1;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+// end white section
+
+
+// sign up section
+
+// end sign up section 

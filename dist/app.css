@@ -96,22 +96,82 @@ li {
 
 .section-content {
   text-align: center;
-  border-bottom: 1px solid #7c4e3c;
 }
-.section-content .images-container {
+.section-content .top-images-container {
   margin: 50px auto;
   width: 80%;
-}
-.section-content .images-container .top-images {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
-.section-content .images-container .top-images img {
+.section-content .top-images-container img {
   width: 15%;
 }
-.section-content .images-container .bottom-image {
+.section-content .bunny-container {
+  margin-bottom: 60px;
+}
+.section-content .bunny-container img {
+  width: 20%;
+}
+
+.section-border {
+  border-bottom: 1px solid #7c4e3c;
+}
+
+.bottom-content-margin {
   margin-top: 40px;
 }
-.section-content .images-container .bottom-image img {
+
+.bottom-images-container {
+  margin: 50px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.bottom-images-container div {
+  width: 15%;
+}
+.bottom-images-container div img {
+  height: 100px;
+}
+.bottom-images-container div p {
+  color: #7c4e3c;
+  font-size: 13px;
+  margin-top: 20px;
+}
+.bottom-images-container div .cat-img {
+  width: 50%;
+}
+
+.single-image img {
+  width: 100%;
+}
+
+.white-section .justified-content {
+  display: flex;
+}
+.white-section .justified-content .col-left {
+  width: 50%;
+}
+.white-section .justified-content .col-right {
   width: 30%;
+}
+.white-section .justified-content .col-right p {
+  margin: 40px 0 20px 0;
+}
+.white-section .justified-content .col-right a {
+  text-decoration: none;
+  color: blue;
+}
+.white-section .justified-content .col-right img {
+  margin-top: 20px;
+}
+
+.reverse {
+  order: 1;
+}
+
+.flex-end {
+  justify-content: flex-end;
 }
