@@ -1,4 +1,8 @@
-// jumbotron 
+// jumbotron
+.jumbotron-background {
+    background-color: $primary_brand_color;
+}
+
 .jumbotron-content {
     display: flex;
 
@@ -47,7 +51,7 @@
 }
 
 .section-border {
-    border-bottom: 1px solid $main_font_color;
+    border-bottom: 1px solid white;
 }
 // end top-content 
 
@@ -67,7 +71,6 @@
         }
 
         p {
-            color: #7c4e3c;
             font-size: 13px;
             margin-top: 20px;
         }
@@ -87,8 +90,9 @@
 // end orange section
 
 
-// white section 
-.white-section {
+// services section 
+.primary-blue-section {
+    background-color: $primary_brand_color;
 
     .justified-content {
         display: flex;
@@ -96,10 +100,12 @@
 
         .col-left {
             width: 50%;
+            margin-left: 20px;
         }
 
         .col-right {
             width: 30%;
+            margin-left: 20px;
 
             p {
                 margin: 40px 0 20px 0;
@@ -124,9 +130,17 @@
 .flex-end {
     justify-content: flex-end;
 }
-// end white section
+// end services section
 
 
 // sign up section
+.signup-section-title {
+    margin: auto;
+    width: 20%;
 
+    h2 {
+        color: white;
+        margin-bottom: 10px;
+    }
+}
 // end sign up section 

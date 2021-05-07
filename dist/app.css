@@ -22,11 +22,15 @@ li {
 }
 
 .title-font-color {
-  color: #58402c;
+  color: white;
 }
 
 .font-color {
-  color: #7c4e3c;
+  color: white;
+}
+
+.blue-font {
+  color: #0414b3;
 }
 
 .section-padding {
@@ -35,7 +39,7 @@ li {
 
 .blue-button {
   color: white;
-  background-color: #2e4790;
+  background-color: #7f14d4;
   padding: 5px;
   border-width: 0;
   border-radius: 8px;
@@ -47,8 +51,8 @@ li {
   vertical-align: middle;
 }
 
-.orange-background {
-  background-color: #fee7d2;
+.persian-background {
+  background-color: #3e14e9;
 }
 
 .header-content {
@@ -56,7 +60,7 @@ li {
   padding: 10px;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #7c4e3c;
+  border-bottom: 1px solid white;
 }
 .header-content .logo-container {
   width: 15%;
@@ -67,13 +71,17 @@ li {
 .header-content .nav-list .btn {
   padding: 10px;
   background-color: white;
-  border-color: #6275ab;
+  border-color: #0414b3;
   border-radius: 8px;
   color: #6275ab;
 }
 .header-content .nav-list .btn img {
   width: 15px;
   vertical-align: middle;
+}
+
+.jumbotron-background {
+  background-color: #0414b3;
 }
 
 .jumbotron-content {
@@ -115,7 +123,7 @@ li {
 }
 
 .section-border {
-  border-bottom: 1px solid #7c4e3c;
+  border-bottom: 1px solid white;
 }
 
 .bottom-content-margin {
@@ -136,7 +144,6 @@ li {
   height: 100px;
 }
 .bottom-images-container div p {
-  color: #7c4e3c;
   font-size: 13px;
   margin-top: 20px;
 }
@@ -148,23 +155,28 @@ li {
   width: 100%;
 }
 
-.white-section .justified-content {
+.primary-blue-section {
+  background-color: #0414b3;
+}
+.primary-blue-section .justified-content {
   display: flex;
 }
-.white-section .justified-content .col-left {
+.primary-blue-section .justified-content .col-left {
   width: 50%;
+  margin-left: 20px;
 }
-.white-section .justified-content .col-right {
+.primary-blue-section .justified-content .col-right {
   width: 30%;
+  margin-left: 20px;
 }
-.white-section .justified-content .col-right p {
+.primary-blue-section .justified-content .col-right p {
   margin: 40px 0 20px 0;
 }
-.white-section .justified-content .col-right a {
+.primary-blue-section .justified-content .col-right a {
   text-decoration: none;
   color: blue;
 }
-.white-section .justified-content .col-right img {
+.primary-blue-section .justified-content .col-right img {
   margin-top: 20px;
 }
 
@@ -174,4 +186,13 @@ li {
 
 .flex-end {
   justify-content: flex-end;
+}
+
+.signup-section-title {
+  margin: auto;
+  width: 20%;
+}
+.signup-section-title h2 {
+  color: white;
+  margin-bottom: 10px;
 }

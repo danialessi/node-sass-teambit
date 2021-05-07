@@ -23,10 +23,15 @@ li {
 
 // fonts 
 .title-font-color {
-    color: $title_font_color;
+    color: white;
 }
+
 .font-color {
-    color: $main_font_color;
+    color: white;
+}
+
+.blue-font {
+    color: $primary_brand_color;
 }
 // end fonts 
 
@@ -36,7 +41,7 @@ li {
 
 .blue-button {
     color: white;
-    background-color: #2e4790;
+    background-color: $secondary_brand_color;
     padding: 5px;
     border-width: 0;
     border-radius: 8px;
@@ -48,6 +53,6 @@ li {
     }
 }
 
-.orange-background {
-    background-color: $section_color;
+.persian-background {
+    background-color: $persian_blue;
 }
