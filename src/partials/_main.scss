@@ -27,7 +27,7 @@
 }
 // end jumbotron
 
-// orange section
+// processes section
 // top-content
 .section-content {
     text-align: center;
@@ -135,12 +135,83 @@
 
 // sign up section
 .signup-section-title {
+    text-align: center;
     margin: auto;
-    width: 20%;
+    width: 30%;
+    font-size: 20px;
 
     h2 {
         color: white;
         margin-bottom: 10px;
     }
 }
-// end sign up section 
+
+// founders message
+.founders-message-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+    p {
+        font-size: 12px;
+    }
+
+    .founders-photos {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        
+        img {
+            margin-right: 20px;
+            width: 40px;
+        }
+
+        .founders-names {
+            span {
+                color: blue;
+            }
+
+            div {
+                font-size: 13px;
+            }
+        }
+    }
+}
+// end founders message 
+.bottom-buttons {
+    color: white;
+    text-align: center;
+}
+
+// end sign up section
+
+
+// MEDIA QUERIES 
+@media screen and (max-width: 768px) {
+    .jumbotron-content {
+        flex-direction: column;
+        align-items: center;
+
+        .j-left-col {
+            text-align: center;
+            width: 100%;
+            font-size: 21px;
+        }
+
+        .j-right-col {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+    .section-content {
+
+        .top-images-container {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+footer {
+
+    .footer-content {
+        margin: auto;
+        display: flex;
+        padding: 50px;
+
+        .small-logo {
+            img {
+                width: 50px;
+            }
+        }
+
+        .footer-text {
+            margin:0 80px 0 20px;
+            width: 20%;
+        }
+    }
+
+    .footer-list {
+        margin-right: 60px;
+
+        li {
+            list-style-type: none;
+            font-size: 12px;
+        }
+
+        .list-title {
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+    }
+}
